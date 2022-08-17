@@ -57,10 +57,6 @@ If you are running the test again, please update the "username" field in src/mai
 ###### Requirements:
 1. Postman client
 Download link → https://www.postman.com/product/rest-client/
-2. Node.js
-Download link → https://nodejs.org/en/download/
-3. newman (NPM Package) 
-	Command → npm install -g newman
 
 ###### Test description:
 API request with POST:
@@ -71,13 +67,4 @@ Body:
 
 Assertion performed:
 Verify status code returns 201
-
-###### Instructions to run tests on console:
-1. Make sure Node.js is installed in the system
-2. Install newman NPM package
-	Command : npm install -g newman
-3. Download you API collection from postman
-4. Open command prompt and Navigate to the folder where your API collection file is located
-5. Run the command to execute your test
-	Command : newman run <collection_name.json>
 
